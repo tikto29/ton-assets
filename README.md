@@ -1,4 +1,43 @@
-# TON Assets
+tu# TON       - name: Install all the tools
+        uses: DeLaGuardo/setup-clojure@13.1
+        with:
+          cli: latest
+          lein: latest
+          boot: latest
+          bb: latest
+          clj-kondo: latest
+          cljstyle: latest
+          zprint: latest
+
+          # Explicit empty string should trigger "no auth" workflow
+          # this will not set Authorisation header for any GitHub API http calls
+          github-token: ''      - name: Install all the tools
+        uses: DeLaGuardo/setup-clojure@13.1      - name: Install all the tools
+        uses: DeLaGuardo/setup-clojure@13.1
+        with:
+          cli: latest
+          lein: latest
+          boot: latest
+          bb: latest
+          clj-kondo: latest
+          cljstyle: latest
+          zprint: latest
+
+          # Explicit empty string should trigger "no auth" workflow
+          # this will not set Authorisation header for any GitHub API http calls
+          github-token: ''
+        with:
+          cli: latest
+          lein: latest
+          boot: latest
+          bb: latest
+          clj-kondo: latest
+          cljstyle: latest
+          zprint: latest
+
+          # Explicit empty string should trigger "no auth" workflow
+          # this will not set Authorisation header for any GitHub API http calls
+          github-token: ''Assets
 
 This is a list of popular addresses and assets. We are open to pull request but **please read manual in the end of this readme for PR**.
 
